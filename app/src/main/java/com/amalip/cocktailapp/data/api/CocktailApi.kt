@@ -5,9 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-/**
- * Created by Amalip on 9/29/2021.
- */
 
 interface CocktailApi {
 

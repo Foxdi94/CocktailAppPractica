@@ -4,10 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentContainerView
 import androidx.navigation.NavController
 
-/**
- * Created by Amalip on 9/28/2021.
- */
-
 abstract class BaseActivity : AppCompatActivity() {
 
     abstract fun layoutId(): Int

@@ -7,10 +7,6 @@ import com.amalip.cocktailapp.domain.repository.CocktailRepository
 import com.amalip.cocktailapp.framework.ApiRequest
 import javax.inject.Inject
 
-/**
- * Created by Amalip on 9/29/2021.
- */
-
 class CocktailRepositoryImpl @Inject constructor(
     private val cocktailApi: CocktailApi,
     private val networkHandler: NetworkHandler
@@ -18,7 +14,7 @@ class CocktailRepositoryImpl @Inject constructor(
     CocktailRepository, ApiRequest {
 
     override fun getCocktailsByName(name: String) = makeRequest(
-        networkHandler, cocktailApi.getCocktailsByName("margarita"), { it }, CocktailsResponse(
+        networkHandler, cocktailApi.getCocktailsByName(name), { it }, CocktailsResponse(
             emptyList()
         )
     )

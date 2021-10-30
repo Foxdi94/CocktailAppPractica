@@ -10,10 +10,6 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-/**
- * Created by Amalip on 9/29/2021.
- */
-
 @Module
 @InstallIn(SingletonComponent::class)
 object NetworkModule {

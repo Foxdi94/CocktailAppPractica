@@ -6,9 +6,6 @@ import com.amalip.cocktailapp.core.plataform.NetworkHandler
 import retrofit2.Call
 import java.lang.Exception
 
-/**
- * Created by Amalip on 9/29/2021.
- */
 
 interface ApiRequest {
 

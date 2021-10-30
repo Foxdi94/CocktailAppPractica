@@ -5,10 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.amalip.cocktailapp.core.exception.Failure
 
-/**
- * Created by Amalip on 8/21/2021.
- */
-
 fun <T : Any, L : LiveData<T>> LifecycleOwner.observe(liveData: L, body: (T?) -> Unit) =
     liveData.observe(this, Observer(body))
 

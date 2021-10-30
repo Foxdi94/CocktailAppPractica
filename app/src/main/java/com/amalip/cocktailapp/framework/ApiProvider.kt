@@ -8,9 +8,6 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
-/**
- * Created by Amalip on 9/29/2021.
- */
 
 class ApiProvider @Inject constructor() {
 

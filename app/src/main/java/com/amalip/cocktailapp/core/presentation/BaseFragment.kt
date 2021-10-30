@@ -8,10 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.amalip.cocktailapp.core.exception.Failure
 
-/**
- * Created by Amalip on 9/29/2021.
- */
-
 abstract class BaseFragment(@LayoutRes layoutId: Int) : Fragment(layoutId), OnFailure {
 
     val navController by lazy { findNavController() }
